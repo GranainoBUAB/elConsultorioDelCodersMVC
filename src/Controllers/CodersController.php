@@ -18,7 +18,7 @@ class CodersController
     public function __construct(Logger $logger)
     {
 
-         $this->logger = $logger;
+        $this->logger = $logger;
 
         if (isset($_GET["action"]) && ($_GET["action"] == "create")) {
             $this->create();

@@ -48,7 +48,7 @@
                         <td>{$coder->getissue()}</td>
                         <td>{$coder->getId()}</td>
                         <td>               
-                        <a href='?action=edit&id={$coder->getId()}'><i class='lnr lnr-pencil'></i></a>
+                            <a href='?action=edit&id={$coder->getId()}'><i class='lnr lnr-pencil'></i></a>
                             <a href='?action=delete&id={$coder->getId()}'><i class='lnr lnr-trash'></i></a>
                         </td>
                     </tr>
